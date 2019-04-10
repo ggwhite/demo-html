@@ -11,6 +11,10 @@
     transform: translate(-50%, -50%);
 }
 
+.title {
+    text-align: center;
+}
+
 .menu {
     width: 300px;
     border-radius: 10px;
@@ -30,7 +34,7 @@
     display: block;
     padding: 16px 20px;
     background-color: #3498db;
-    color: #DDD;
+    color: #FFF;
     position: relative;
 }
 
@@ -59,7 +63,7 @@
 .sub-menu a {
     display: block;
     padding: 16px 26px;
-    color: #DDD;
+    color: #FFF;
     font-size: 14px;
     margin: 4px 0;
     position: relative;
