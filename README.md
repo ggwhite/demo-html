@@ -7,6 +7,9 @@ A practice web page, refrence from youtube channel [Dark Code](https://www.youtu
 * [Animation Button 3](#Animation-Button-3)
 * [Accordion Menu](#Accordion-Menu)
 * [Flip Card](#Flip-Card)
+* [Slide Show](#Slide-Show)
+* [Eyes Follow Mouse](#Eyes-Follow-Mouse)
+
 
 ## Animation Button 1
 ![](animation-button-1/demo.gif)
@@ -22,3 +25,9 @@ A practice web page, refrence from youtube channel [Dark Code](https://www.youtu
 
 ## Flip Card
 ![](flip-card/demo.gif)
+
+## Slide Show
+![](slide-show/demo.gif)
+
+## Eyes Follow Mouse
+![](eyes-follow-mouse/demo.gif)
