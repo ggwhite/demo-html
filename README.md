@@ -5,6 +5,7 @@ A practice web page, refrence from youtube channel [Dark Code](https://www.youtu
 * [Animation Button 1](#Animation-Button-1)
 * [Animation Button 2](#Animation-Button-2)
 * [Animation Button 3](#Animation-Button-3)
+* [Navigation Bar 1](#Navigation-Bar-1)
 * [Accordion Menu](#Accordion-Menu)
 * [Flip Card](#Flip-Card)
 * [Slide Show](#Slide-Show)
@@ -20,6 +21,9 @@ A practice web page, refrence from youtube channel [Dark Code](https://www.youtu
 
 ## Animation Button 3
 ![](animation-button-3/demo.gif)
+
+## Navigation Bar 1
+![](navigation-bar-1/demo.gif)
 
 ## Accordion Menu
 ![](accordion-menu/demo.gif)
