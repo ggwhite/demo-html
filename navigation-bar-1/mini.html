@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Navigation Bar Mini</title>
+        <link rel="stylesheet" href="./mini.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+
+    <body>
+        <div class="container">
+            <input type="checkbox" />
+            <div class="demo"></div>
+            <div class="demo"></div>
+            <div class="demo"></div>
+            <div class="demo"></div>
+            <div class="demo"></div>
+            <div class="demo"></div>
+            <div class="demo"></div>
+            <div class="demo"></div>
+        </div>
+
+        <script>
+            var demos = document.getElementsByClassName("demo");
+            var origiTop = demos[0].getBoundingClientRect().top;
+            for (var i = 0; i < demos.length; i++) {
+                var rowtop = demos[i].getBoundingClientRect().top;
+
+                var group = parseInt(i/3);
+
+                demos[i].style.setProperty("--top", rowtop - origiTop - group * 15);
+                demos[i].style.setProperty("--delay-out", i * 0.1 + "s");
+                demos[i].style.setProperty("--delay-in", (demos.length - i) * 0.1 + "s");
+            }
+        </script>
+    </body>
+</html>
