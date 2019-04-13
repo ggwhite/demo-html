@@ -112,7 +112,7 @@ body {
 .gallery {
     position: relative;
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     justify-content: center;
     border-radius: 20px;
     overflow: hidden;

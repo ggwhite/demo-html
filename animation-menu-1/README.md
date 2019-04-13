@@ -1,4 +1,4 @@
-# Navigation Bar 1
+# Animation Menu 1
 
 https://www.youtube.com/watch?v=7fvhMlXoRF4
 
