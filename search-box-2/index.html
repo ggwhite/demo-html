@@ -20,6 +20,7 @@
             var btn = document.getElementById("btn");
             var input = document.getElementById("input");
             btn.onclick = function(e) {
+                event.preventDefault();
                 if (input.classList.contains('inclicked')) {
                     input.classList.remove('inclicked')
                     input.value = "";
@@ -27,6 +28,7 @@
                     input.classList.add('inclicked')
                     input.focus();
                 }
+                event.stopPropagation();
             }
         </script>
     </body>
