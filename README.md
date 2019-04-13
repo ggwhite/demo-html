@@ -12,4 +12,4 @@ A practice web page, refrence from youtube channel [Dark Code](https://www.youtu
 * [Slide Show](slide-show/README.md)
 * [Eyes Follow Mouse](eyes-follow-mouse/README.md)
 * [Task List](task-list/README.md)
-
+* [Tool Tips 1](tool-tips-1/README.md)
