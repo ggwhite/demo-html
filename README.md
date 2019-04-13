@@ -2,40 +2,13 @@
 
 A practice web page, refrence from youtube channel [Dark Code](https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw)
 
-* [Animation Button 1](#Animation-Button-1)
-* [Animation Button 2](#Animation-Button-2)
-* [Animation Button 3](#Animation-Button-3)
-* [Navigation Bar 1](#Navigation-Bar-1)
-* [Accordion Menu](#Accordion-Menu)
-* [Flip Card](#Flip-Card)
-* [Slide Show](#Slide-Show)
-* [Eyes Follow Mouse](#Eyes-Follow-Mouse)
-* [Task List](#Task-List)
+* [Animation Button 1](animation-button-1/README.md)
+* [Animation Button 2](animation-button-2/README.md)
+* [Animation Button 3](animation-button-3/README.md)
+* [Navigation Bar 1](navigation-bar-1/README.md)
+* [Accordion Menu](accordion-menu/README.md)
+* [Flip Card](flip-card/README.md)
+* [Slide Show](slide-show/README.md)
+* [Eyes Follow Mouse](eyes-follow-mouse/README.md)
+* [Task List](task-list/README.md)
 
-
-## Animation Button 1
-![](animation-button-1/demo.gif)
-
-## Animation Button 2
-![](animation-button-2/demo.gif)
-
-## Animation Button 3
-![](animation-button-3/demo.gif)
-
-## Navigation Bar 1
-![](navigation-bar-1/demo.gif)
-
-## Accordion Menu
-![](accordion-menu/demo.gif)
-
-## Flip Card
-![](flip-card/demo.gif)
-
-## Slide Show
-![](slide-show/demo.gif)
-
-## Eyes Follow Mouse
-![](eyes-follow-mouse/demo.gif)
-
-## Task List
-![](task-list/demo.gif)
