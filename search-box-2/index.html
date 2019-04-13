@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Search Box 2</title>
+        <link rel="stylesheet" href="./style.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+
+    <body>
+        <div class="middle">
+            <h1>Search Box 2</h1>
+            <div class="border"></div>
+            <div class="search-box">
+                <input id="input" class="input" type="text" name="search" />
+                <button id="btn" class="search-btn"></button>
+            </div>
+        </div>
+        <script>
+            var btn = document.getElementById("btn");
+            var input = document.getElementById("input");
+            btn.onclick = function(e) {
+                if (input.classList.contains('inclicked')) {
+                    input.classList.remove('inclicked')
+                    input.value = "";
+                } else {
+                    input.classList.add('inclicked')
+                    input.focus();
+                }
+            }
+        </script>
+    </body>
+</html>
