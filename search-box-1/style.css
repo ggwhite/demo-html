@@ -16,6 +16,7 @@ body {
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+    width: 100%;
 }
 
 .border {
@@ -62,4 +63,11 @@ input {
 .search-box:hover > input {
     width: 240px;
     padding: 0 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .search-box:hover > input {
+        width: 180px;
+        padding: 0 10px;
+    }
 }

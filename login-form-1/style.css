@@ -18,6 +18,12 @@ body {
     text-align: center;
 }
 
+@media screen and (max-width: 480px) {
+    .middle {
+        width: 80%;
+    }
+}
+
 .border {
     width: 100px;
     height: 4px;

@@ -38,6 +38,16 @@ body {
     position: relative;
 }
 
+@media screen and (max-width: 480px) {
+    .slidershow {
+        width: 250px;
+        height: 250px;
+        overflow: hidden;
+        margin: 0 auto;
+        position: relative;
+    }
+}
+
 .navigation {
     position: absolute;
     bottom: 20px;
@@ -98,3 +108,4 @@ input[name="r"] {
 #r5:checked ~ .s1 {
     margin-left: -80%;
 }
+
