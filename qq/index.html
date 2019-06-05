@@ -23,13 +23,13 @@
                                 <li class="list-group-item">
                                     <label for="">信用卡卡號(Number)</label>
                                     <div class="input-group" v-show="tmp.cardtype!='AE'">
-                                        <input type="number" class="form-control text-center" v-model="tmp.cardno1" ref="cardno1" @keydown="checkInput(event, '', 'cardno2')" @keyup="move(event, '', 'cardno2')" />
-                                        <input type="number" class="form-control text-center" v-model="tmp.cardno2" ref="cardno2" @keydown="checkInput(event, 'cardno1', 'cardno3')" @keyup="move(event, 'cardno1', 'cardno3')" />
-                                        <input type="number" class="form-control text-center" v-model="tmp.cardno3" ref="cardno3" @keydown="checkInput(event, 'cardno2', 'cardno4')" @keyup="move(event, 'cardno2', 'cardno4')" />
-                                        <input type="number" class="form-control text-center" v-model="tmp.cardno4" ref="cardno4" @keydown="checkInput(event, 'cardno3', '')" @keyup="move(event, 'cardno3', '')" />
+                                        <input type="tel" class="form-control text-center" v-model="tmp.cardno1" ref="cardno1" @keydown="checkInput(event, '', 'cardno2')" @keyup="move(event, '', 'cardno2')" />
+                                        <input type="tel" class="form-control text-center" v-model="tmp.cardno2" ref="cardno2" @keydown="checkInput(event, 'cardno1', 'cardno3')" @keyup="move(event, 'cardno1', 'cardno3')" />
+                                        <input type="tel" class="form-control text-center" v-model="tmp.cardno3" ref="cardno3" @keydown="checkInput(event, 'cardno2', 'cardno4')" @keyup="move(event, 'cardno2', 'cardno4')" />
+                                        <input type="tel" class="form-control text-center" v-model="tmp.cardno4" ref="cardno4" @keydown="checkInput(event, 'cardno3', '')" @keyup="move(event, 'cardno3', '')" />
                                     </div>
                                     <div class="input-group" v-show="tmp.cardtype=='AE'">
-                                        <input type="number" class="form-control text-center" v-model="tmp.cardae" ref="cardae" />
+                                        <input type="tel" class="form-control text-center" v-model="tmp.cardae" ref="cardae" />
                                     </div>
                                 </li>
                                 <li class="list-group-item">
@@ -47,7 +47,7 @@
                                 </li>
                                 <li class="list-group-item">
                                     <label for="">信用卡檢核碼(CVV2)</label>
-                                    <input type="number" class="form-control text-center" v-model="tmp.cvv2" />
+                                    <input type="tel" class="form-control text-center" v-model="tmp.cvv2" />
                                 </li>
                             </ul>
                         </div>
